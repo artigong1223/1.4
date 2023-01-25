@@ -44,10 +44,10 @@ body {
 .logo_ic {
     background-image: url(./img/logo.svg)
 }
-.ic_burger-off {
+.ic-burger-off {
     background-image: url(./img/burger-off.svg);
 }
-.ic_search {
+.ic-search {
     background-image: url(./img/search.svg);
 }
 .ic-call {
@@ -65,12 +65,12 @@ body {
     margin-top: 23px;
     padding-bottom: 57px;
 }
-.right-ic {
+.menu-burger__right-ic {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.left-ic {
+.menu-burger__left-ic {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,7 +131,10 @@ body {
 .adress-mail {
     letter-spacing: -0.2px;
 }
-
+.adress-link {
+    text-decoration: none;
+    color: inherit;
+}
 .footer-languages {
     list-style: none;
     margin: 0;
